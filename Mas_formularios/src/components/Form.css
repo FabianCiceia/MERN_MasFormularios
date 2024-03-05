@@ -1,0 +1,24 @@
+.form{
+    border: solid #9e9e9e;
+    border-radius: 7px;
+    width: min-content ;
+    margin: 10px 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-label{
+    padding-right: 10px;
+    min-width: 90px;
+}
+.error-message{
+    height: 24px;
+}
+
+.form-button{
+    min-width: 120px;
+    height: 40px;
+    font-size:larger;
+}
