@@ -13,3 +13,14 @@ body{
 #root{
   max-width: 1080px;
 }
+
+@media (min-width: 1090px) {
+  body {
+    zoom: 1.5; /* O transform: scale(2); */
+  }
+}
+@media (max-width: 400px) {
+  .tareas-input{
+      width: 200px;
+  }
+}
