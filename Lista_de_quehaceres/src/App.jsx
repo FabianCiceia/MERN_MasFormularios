@@ -29,6 +29,7 @@ function App() {
                 <input className='tareas-check' type="checkbox"  onChange={() => completado(i)} checked={checks[i]} />
                 <button className='tareas-button' onClick={() => eliminar(i)}>Eliminar</button>
               </div>
+
             </div>
           ))
         }
