@@ -8,7 +8,6 @@ const MyForm = () => {
         lastName: '',
         email: '',
         password: '',
-        confirmPassword: '',
     };
 
     const onSubmit = (values) => {
